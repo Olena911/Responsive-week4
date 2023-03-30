@@ -29,6 +29,7 @@ p{
     text-align: center;
     padding: 160px 20px ;
 
+
 }
 .hero p{
     font-size: 36px;
@@ -65,6 +66,33 @@ line-height: 1.5;
 .content p{
     font-size:14px;
 }
+.logo{
+    max-height: 40px;
+}
+nav{
+    padding: 20px 0;
+}
+nav ul{
+    margin: 0;
+    padding:0;
+}
+nav li{
+    display: inline;
+    list-style:none;
+    line-height: 42px;
+    margin-left:14px;
+}
+nav a{
+    text-decoration:none;
+    color: #272142;
+    transition: all 100ms ease-in-out;
+
+}
+nav a:hover,
+nav li.active a{
+    color: var(--brending-color);
+}
+
 .btn-branding{
     background-color: var(--brending-color);
     border-radius:4px;
@@ -93,13 +121,16 @@ border:1px solid var(--brending-color);
     h2{
         font-size: 44px;
     }
+    nav a{
+        font-size: 14px;
+    }
     .hero{
         padding:80px 20px;
     }
     .hero p{
         font-size: 30px;
     }
-    .content-container{
+    .content{
         text-align: center;
         padding:0;
     }
